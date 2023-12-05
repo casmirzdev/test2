@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: whitesmoke;
+  font-size: 14px;
+  padding:20px;
+ 
+}
+
+.container {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  max-width:450px;
+  background-color: whitesmoke;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 15px 5px rgba(60, 111, 242, 0.4);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+  font-size: 70px;
+  margin-top: 30px;
+  color: rgb(49, 84, 243);
+
+}
+
+p {
+  font-size: 21px;
+  color: rgba(60, 111, 242, 0.4);
+  letter-spacing: 1.5px;
+  margin-bottom: 60px;
+}
+
+input {
+  padding: 15px 30px;
+  border-radius: 12px 12px;
+  text-decoration: none;
+  color: rgb(49, 84, 243);
+  background-color: white;
+  border: 0;
+  outline: none;
+  text-align: center;
+
+}
+
+input::placeholder {
+  color: rgb(49, 84, 243);
+  font-size: 14px;
+  opacity: 0.8;
+  letter-spacing: 1.3px;
+}
+
+
+
+h3 {
+  margin-top: 15px;
+  color: rgb(49, 84, 243);
+  font-weight: lighter;
+  font-size: 19px;
+  letter-spacing: 1.2px;
+}
+
+h4 {
+  font-size: 7px;
+  color: rgba(60, 111, 242, 0.4);
+
+}
+
+button {
+  padding: 22px 50px;
+  border-radius: 20px 20px;
+  color: white;
+  background-color: rgb(49, 84, 243);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 0;
+
+
+
+}
